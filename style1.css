@@ -1,0 +1,207 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  
+
+
+  
+  .main-container {
+    position: relative;
+    width: 1512px;
+    height: 5403px;
+    margin: 0 auto;
+    background: #000000;
+    overflow: hidden;
+  }
+  .button-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 169px;
+    height: 41px;
+    top: 0;
+    left: 1168px;
+    padding: 10px 16px 10px 16px;
+    cursor: pointer;
+    background: #f91058;
+    border: none;
+    z-index: 83;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  .create-account {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 21px;
+    color: #ffffff;
+    font-family: DM Sans, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.832px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 84;
+  }
+  
+  .vector {
+    position: absolute;
+    width: 99px;
+    height: 23px;
+    top: 7px;
+    left: 0;
+    background: url("Vector.png")
+      no-repeat center;
+    background-size: cover;
+    z-index: 82;
+  }
+  .sign-in {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    width: 49px;
+    height: 21px;
+    top: 10px;
+    left: 1087px;
+    color: #ffffff;
+    font-family: DM Sans, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.832px;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 85;
+  }
+  .escape-reality {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 904px;
+    height: 152px;
+    margin: 359px 0 0 304px;
+    color: #ffffff;
+    font-family: DM Sans, var(--default-font-family);
+    font-size: 69.73003387451172px;
+    font-weight: 700;
+    line-height: 76.145px;
+    text-align: center;
+    z-index: 2;
+  }
+  .exclusive-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 980px;
+    height: 62px;
+    margin: 32px 0 0 266px;
+    color: #b8b8b8;
+    font-family: DM Sans, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.248px;
+    text-align: center;
+    z-index: 4;
+  }
+  .frame {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 79px;
+    position: relative;
+    width: 1623px;
+    margin: 159px 0 0 -26px;
+    z-index: 11;
+  }
+  .unlimited {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 451px;
+    height: 125px;
+    color: #0f0f0f;
+    font-family: Power Grotesk Trial, var(--default-font-family);
+    font-size: 104.12223815917969px;
+    font-weight: 500;
+    line-height: 124.947px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 12;
+  }
+  .movie {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 293px;
+    height: 125px;
+    color: #0f0f0f;
+    font-family: Power Grotesk Trial, var(--default-font-family);
+    font-size: 104.12223815917969px;
+    font-weight: 500;
+    line-height: 124.947px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 13;
+  }
+  .entertainment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 721px;
+    height: 125px;
+    color: #0f0f0f;
+    font-family: Power Grotesk Trial, var(--default-font-family);
+    font-size: 104.12223815917969px;
+    font-weight: 500;
+    line-height: 124.947px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 14;
+  }
+  .flex-row-ea {
+    position: relative;
+    width: 2016px;
+    height: 1915px;
+    margin: 98px 0 0 -57px;
+    z-index: 18;
+  }
+  .vectary-texture {
+    position: absolute;
+    width: 792px;
+    height: 723.492px;
+    top: 0;
+    left: 0;
+    background: url("Vectary\ texture\ \(1\).png")
+      no-repeat center;
+    background-size: cover;
+    z-index: 6;
+  }
+  .vectary-texture-1 {
+    position: absolute;
+    width: 995.074px;
+    height: 909px;
+    top: 41px;
+    left: 66px;
+    background: url("Vectary\ texture\ \(2\).png")
+      no-repeat center;
+    background-size: cover;
+    z-index: 7;
+  }
